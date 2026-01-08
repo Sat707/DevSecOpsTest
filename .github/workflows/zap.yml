@@ -21,6 +21,3 @@ jobs:
     with:
       target: 'https://www.zaproxy.org'
       fail_action: true
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
