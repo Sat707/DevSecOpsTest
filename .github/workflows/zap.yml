@@ -11,13 +11,13 @@ on:
 jobs:
     
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+  runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
+  steps:
 
       - name: ZAP Scan
-    uses: zaproxy/action-baseline@v0.15.0
-    with:
+  uses: zaproxy/action-baseline@v0.15.0
+   with:
       target: 'https://www.zaproxy.org'
       fail_action: true
